@@ -1,0 +1,258 @@
+p, h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #1e1f23;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #19d4db;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: #212121;
+}
+
+/* --------------- HEADER MENU --------------- */
+/* --------------- BANNER --------------- */
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    height:  180px;
+    background-image: url(../img/whitetexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 60%;
+    
+}
+
+.banner img {
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 45%;
+}
+/* --------------- BANNER END --------------- */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #212121;
+    border-bottom: 3px solid #19d4db;
+    box-shadow: 0px 0px 20px 15px rgba(0,0,0,0.4);
+}
+
+.container {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+nav {
+    float: right;
+}
+
+.container nav li {
+    color: #6db9e2;
+    cursor: pointer;
+    float: left;
+    display: block;
+    margin: 20px 90px 0 90px;
+    font-family: 'Orbitron', sans-serif;
+}
+/* --------------- HEADER MENU END --------------- */
+/* --------------- CONTENT --------------- */
+.content {
+    background-image: url(../img/whitetexture.jpg);
+    width: 1000px;
+    height: 1150px;
+    margin: 0 auto;
+    padding-top: 265px;
+}
+
+.gallery {
+    background-color: #212121;
+    float: left;
+    margin: 5px;
+    border: 3px solid #6db9e2;
+    width: 290px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    color: #6db9e2;
+    padding: 15px;
+    text-align: center;
+}
+/* --------------- PROFILE --------------- */
+.profile {
+    overflow: auto;
+    background-color: #212121;
+    float: left;
+    width: 680px;
+    height: 355px;
+    border: 3px solid #6db9e2;
+    margin: 5px;
+}
+
+.descprofile {
+    color: #6db9e2;
+    text-align:left
+}
+
+.descprofile h1 {
+    text-align: center;
+    font-size: 20px;
+    width: 210px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: 2px solid;
+    
+}
+
+.descprofile p {
+    border-left: 2px solid; 
+    margin: 20px 15px 10px 15px;
+    padding: 0px 0px 0px 11px;
+}
+/* --------------- PROFILE END --------------- */
+/* --------------- OVERWATCH --------------- */
+.overbanner {
+    clear: both;
+    max-width:  1000px;
+    height: ;
+}
+
+.overimgbanner {
+    width: 1000px
+}
+
+.overbanner img {
+    width: 100%;
+}
+/* --------------- OVERWATCH END --------------- */
+/* --------------- CONTENT END --------------- */
+/* --------------- PERSONAL CONTENT --------------- */
+.personal {
+    color: #6db9e2;
+    text-align: left;
+    background-color: #212121;
+    width: 1000px;
+    height: auto;
+    border: 3px solid #6db9e2;
+    margin: 5px auto;
+}
+/* --------------- PERSONAL CONTENT END --------------- */
+/* --------------- PARALLAX BG --------------- */
+.topdesc  {
+    border-top: 3px solid #6db9e2;
+    border-left: 3px solid #6db9e2;
+    border-right: 3px solid #6db9e2;
+    background-color: #1e1f23;
+    color: #6db9e2;
+    text-align:left;
+    margin: 5px auto;
+    width: 1000px;
+    height: 60px;
+}
+
+.topdesc h1 {
+    text-align: center;
+    font-size: 20px;
+    width: 210px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: 2px solid; 
+}
+
+.botdesc {
+    border-bottom: 3px solid #6db9e2;
+    border-left: 3px solid #6db9e2;
+    border-right: 3px solid #6db9e2;
+    background-color: #1e1f23;
+    color: #6db9e2;
+    text-align:left;
+    margin: 5px auto;
+    width: 1000px;
+    height: auto;   
+}
+
+.botdesc h1 {
+    text-align: center;
+    font-size: 20px;
+    width: 210px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: 2px solid;
+}
+
+.botdesc p {
+    text-align: center; 
+    margin: 20px 15px 10px 15px;
+    padding: 0px 0px 0px 11px;   
+}
+
+#box1 {
+    clear: both;
+    height: 30vh;
+    width: 1000px;
+    margin: 0 auto;
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/wlop%20-%20FateGO%20gif%20Widowmaker.gif);
+    display: table;
+}
+
+#box2 {
+    clear: both;
+    height: 25vh;
+    width: 1000px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/wlop%20-%20sky%20lantern.jpg);
+    display: table;
+}
+
+#box3 {
+    height: 30vh;
+    width: 1000px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(../img/wlop%20-%20Sylvanna.jpg);
+    display: table;
+}
+/* --------------- PARALLAX BG END --------------- */
+/* --------------- FOOTER --------------- */
+footer {
+    background-color: #101113;
+    padding: 20px;
+    text-align: center;
+    color: #6db9e2;
+    width: 100%;
+    height: 2000px;
+    clear: both;
+    border-bottom: 2px solid;
+}
+
+footer p {
+    margin-top: 50px;
+}
+/* --------------- FOOTER END --------------- */
