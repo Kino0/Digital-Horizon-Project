@@ -1,5 +1,7 @@
 p, h1 {
     font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -21,14 +23,13 @@ body {
     background-color: #212121;
 }
 
-/* --------------- HEADER MENU --------------- */
-/* --------------- BANNER --------------- */
+/* HEADER */
+/* Banner */
 .banner{
-    width: 100%;
     margin: 0 auto;
-    height:  180px;
+    width: 100%;
+    height: 180px;
     background-image: url(../img/whitetexture.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 60%;
     
@@ -39,7 +40,7 @@ body {
     margin-top: 60px;
     margin-left: 45%;
 }
-/* --------------- BANNER END --------------- */
+
 header {
     position: fixed;
     width: 100%;
@@ -67,12 +68,12 @@ nav {
     margin: 20px 90px 0 90px;
     font-family: 'Orbitron', sans-serif;
 }
-/* --------------- HEADER MENU END --------------- */
-/* --------------- CONTENT --------------- */
+
+/* CONTENT */
 .content {
     background-image: url(../img/whitetexture.jpg);
     width: 1000px;
-    height: 1150px;
+    height: auto;
     margin: 0 auto;
     padding-top: 265px;
 }
@@ -95,7 +96,7 @@ nav {
     padding: 15px;
     text-align: center;
 }
-/* --------------- PROFILE --------------- */
+/* PROFILE */
 .profile {
     overflow: auto;
     background-color: #212121;
@@ -128,23 +129,17 @@ nav {
     margin: 20px 15px 10px 15px;
     padding: 0px 0px 0px 11px;
 }
-/* --------------- PROFILE END --------------- */
-/* --------------- OVERWATCH --------------- */
+/* OVERWATCH BANNER */
 .overbanner {
     clear: both;
     max-width:  1000px;
 }
 
-.overimgbanner {
+.overbanner img {
     width: 1000px;
 }
 
-.overbanner img {
-    width: 100%;
-}
-/* --------------- OVERWATCH END --------------- */
-/* --------------- CONTENT END --------------- */
-/* --------------- SUB HEADER --------------- */
+/* SUB HEADER */
 .submenu {
     background-color: brown;
     width: 1000px;
@@ -219,8 +214,8 @@ nav {
     max-height: 200px;
     transform: all;
 }
-/* --------------- SUB HEADER END --------------- */
-/* --------------- PERSONAL CONTENT --------------- */
+
+/* PERSONAL CONTENT */
 .personal {
     clear: both;
     color: #6db9e2;
@@ -231,8 +226,8 @@ nav {
     border: 3px solid #6db9e2;
     margin: 5px auto;
 }
-/* --------------- PERSONAL CONTENT END --------------- */
-/* --------------- PARALLAX BG --------------- */
+
+/* PARALLAX BG */
 .topdesc  {
     clear: both;
     border-top: 3px solid #6db9e2;
@@ -319,6 +314,7 @@ nav {
 }
 
 #box3 {
+    background-position: 230em;
     background-attachment: fixed;
     height: 35vh;
     width: 1000px;
@@ -336,8 +332,22 @@ nav {
     font-family: 'Orbitron', sans-serif;
     text-align: left;
 }
-/* --------------- PARALLAX BG END --------------- */
-/* --------------- SLIDESHOW --------------- */
+
+/* SLIDE SELECT */
+/* DRAKE EFFECT */
+.knockout-text-one {
+    color: white;
+    background: url('../img/clouds%20GIF-source.gif') no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5vw;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+/* SLIDESHOW */
 .slideshow {
     box-shadow: -3px -3px 20px 10px rgba(0,0,0,0.4);
     border-top: 3px solid #6db9e2;
@@ -375,11 +385,7 @@ nav {
 .slideimg:nth-child(2){
     animation-delay: 10s;
 }
-/* --------------- SLIDESHOW END --------------- */
-/* --------------- SLIDE-SELEC --------------- */
-
-/* --------------- SLIDE-SELECT END --------------- */
-/* --------------- FOOTER --------------- */
+/* FOOTER */
 footer {
     background-color: #101113;
     padding: 20px;
@@ -393,4 +399,3 @@ footer {
 footer p {
     margin-top: 50px;
 }
-/* --------------- FOOTER END --------------- */
